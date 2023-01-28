@@ -1,0 +1,32 @@
+.overview {
+  padding: 96px 0 246px;
+  background: #f0f2f4;
+}
+
+.overview-title {
+  margin-bottom: 79px;
+}
+
+.overview-wrapper {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 11px;
+}
+
+.overview-item {
+  padding: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(170, 170, 170, 0.2);
+  height: 230px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overview-item-text {
+  font-family: "Roboto";
+  font-size: 24px;
+  text-transform: uppercase;
+}

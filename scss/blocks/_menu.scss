@@ -1,0 +1,51 @@
+.menu-list {
+  display: flex;
+  gap: 33px;
+}
+
+.menu-link {
+  font-size: 19px;
+  color: #000;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0;
+    right: 50%;
+    bottom: 0;
+    background: #000;
+    transition: 0.5s;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: 50%;
+    bottom: 0;
+    background: #000;
+    transition: 0.5s;
+  }
+  &:hover {
+    color: #000;
+    &::after {
+      width: 50%;
+    }
+    &::before {
+      width: 50%;
+    }
+  }
+}
+
+.menu-overlay {
+  display: none;
+  position: fixed;
+  background: #181818dd;
+  height: 100vh;
+  left: -100%;
+  top: 0;
+  width: 30%;
+  transition: 0.3s;
+  z-index: 10;
+}

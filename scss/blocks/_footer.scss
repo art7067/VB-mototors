@@ -1,0 +1,50 @@
+.footer {
+  padding: 33px 0 88px;
+  background: #1f1f1f;
+  color: #ffffff;
+}
+
+.footer-title {
+  font-weight: 700;
+  width: fit-content;
+  line-height: 1;
+  border-bottom: 3px solid #fff;
+  margin-bottom: 50px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content {
+  max-width: 720px;
+  width: 100%;
+}
+
+.footer-text {
+  font-size: 46px;
+  margin-bottom: 60px;
+}
+
+.footer-address {
+  font-family: "Roboto";
+  font-size: 30px;
+}
+
+.footer-contacts {
+  max-width: 487px;
+  width: 100%;
+}
+
+.footer-tel,
+.footer-email {
+  font-family: "Roboto";
+  font-size: 34px;
+  color: #fff;
+}
+
+.footer-email {
+  margin-bottom: 40px;
+  display: inline-block;
+}

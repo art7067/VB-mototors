@@ -1,0 +1,39 @@
+.trademark {
+  padding: 155px 0;
+  background: #f0f2f4;
+}
+
+.trademark-title {
+  margin-bottom: 78px;
+}
+
+.trademark-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.trademark-item-head {
+  background: #fff;
+  text-align: center;
+  padding-top: 75px;
+  margin-bottom: 95px;
+}
+
+.trademark-item-img {
+  max-width: 268px;
+  margin-bottom: -90px;
+}
+
+.trademark-item-title {
+  margin-bottom: 11px;
+}
+
+.trademark-item-text {
+  font-size: 18px;
+}
+
+.trademark-item-content {
+  max-width: 404px;
+  margin: 0 auto;
+}

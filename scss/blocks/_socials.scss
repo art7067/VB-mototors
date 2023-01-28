@@ -1,0 +1,22 @@
+.socials {
+  display: flex;
+  gap: 17px;
+}
+
+.socials-link {
+  height: 75px;
+  width: 75px;
+  background: #c4c4c4;
+  border-radius: 50%;
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #1f1f1f;
+  transition: 0.1s;
+  &:hover {
+    color: #1f1f1f;
+    background: lighten($color: #c4c4c4, $amount: 11%);
+    transform: scale(1.04);
+  }
+}

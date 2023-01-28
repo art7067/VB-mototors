@@ -1,0 +1,57 @@
+.achievment {
+  padding: 160px 0 63px;
+  .container {
+    max-width: 1630px;
+  }
+}
+
+.achievment-title {
+  margin-bottom: 104px;
+}
+
+.achievment-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.achievment-content {
+  max-width: 650px;
+  width: 100%;
+}
+
+.achievment-text {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  max-width: 546px;
+  width: 100%;
+  margin-bottom: 42px;
+}
+
+.achievment-item {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 76px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.achievment-img {
+  width: 50%;
+}
+
+.achievment-item-img {
+  width: 154px;
+  height: 154px;
+}
+
+.achievment-item-text {
+  font-size: 32px;
+  span {
+    font-weight: 700;
+    font-size: 42px;
+  }
+}

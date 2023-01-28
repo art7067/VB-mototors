@@ -1,0 +1,682 @@
+@media (max-width: 1400px) {
+  body {
+    font-size: 17px;
+  }
+
+  h1 {
+    font-size: 55px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  .btn--yellow {
+    font-size: 20px;
+    padding: 14px 40px;
+  }
+
+  .btn--enquire {
+    padding: 12px 35px;
+  }
+
+  .menu-link {
+    font-size: 17px;
+  }
+
+  .about-text {
+    font-size: 23px;
+  }
+
+  .about-item-num {
+    font-size: 45px;
+    margin-bottom: 45px;
+  }
+
+  .about-item-text {
+    font-size: 22px;
+  }
+
+  .overview {
+    padding: 96px 0 160px;
+  }
+
+  .overview-item {
+    height: 200px;
+  }
+
+  .overview-item-text {
+    font-size: 21px;
+  }
+
+  .services {
+    padding: 130px 0 140px;
+  }
+
+  .services-item-text {
+    font-size: 24px;
+  }
+
+  .trademark {
+    padding: 110px 0;
+  }
+
+  .achievment {
+    padding: 120px 0 63px;
+  }
+
+  .achievment-text {
+    font-size: 24px;
+  }
+
+  .achievment-item-img {
+    width: 130px;
+    height: 130px;
+  }
+
+  .achievment-item-text {
+    font-size: 26px;
+    span {
+      font-size: 32px;
+    }
+  }
+
+  .steps-item-number {
+    font-size: 65px;
+    margin-bottom: 55px;
+  }
+
+  .steps-item-text {
+    font-size: 22px;
+  }
+
+  .steps-form-title {
+    font-size: 40px;
+  }
+
+  .steps-form-text {
+    font-size: 30px;
+  }
+
+  .steps-form-input {
+    height: 100px;
+    font-size: 26px;
+  }
+
+  .btn--form {
+    height: 100px;
+    font-size: 28px;
+    span {
+      background-size: contain;
+      width: 48px;
+      height: 36px;
+    }
+  }
+
+  .steps-link {
+    padding: 15px 38px;
+    font-size: 22px;
+  }
+
+  .footer-text {
+    font-size: 32px;
+    margin-bottom: 45px;
+  }
+
+  .footer-address {
+    font-size: 24px;
+  }
+
+  .footer-tel,
+  .footer-email {
+    font-size: 28px;
+  }
+
+  .socials-link {
+    height: 60px;
+    width: 60px;
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    font-size: 15px;
+  }
+
+  .container {
+    max-width: 1070px;
+  }
+
+  h1 {
+    font-size: 42px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .btn--yellow {
+    font-size: 17px;
+    padding: 12px 30px;
+  }
+
+  .btn--enquire {
+    padding: 12px 30px;
+    font-size: 15px;
+  }
+
+  .btn--form {
+    height: 70px;
+    font-size: 20px;
+    span {
+      width: 40px;
+      height: 26px;
+    }
+  }
+
+  .menu-link {
+    font-size: 15px;
+  }
+
+  .partners {
+    padding: 61px 0 90px;
+  }
+
+  .about {
+    padding: 79px 0 50px;
+  }
+
+  .about-head::before,
+  .about-head::after {
+    height: 200px;
+    width: 200px;
+    background-size: contain;
+  }
+
+  .about-head::after {
+    right: -210px;
+  }
+
+  .about-head::before {
+    left: -210px;
+  }
+
+  .about-text {
+    font-size: 20px;
+  }
+
+  .about-item-num {
+    font-size: 35px;
+    margin-bottom: 32px;
+  }
+
+  .about-item-title {
+    font-size: 19px;
+  }
+
+  .about-item-text {
+    font-size: 17px;
+  }
+
+  .overview {
+    padding: 50px 0 50px;
+  }
+
+  .overview-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .overview-item-text {
+    font-size: 18px;
+  }
+
+  .services {
+    padding: 50px 0 50px;
+  }
+
+  .services-title {
+    margin-bottom: 50px;
+  }
+
+  .services-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-auto-rows: 330px;
+  }
+
+  .services-item-img {
+    width: 110px;
+    margin-bottom: 40px;
+  }
+
+  .services-item-text {
+    font-size: 20px;
+  }
+
+  .trademark {
+    padding: 50px 0;
+  }
+
+  .trademark-item-text {
+    font-size: 15px;
+  }
+
+  .achievment {
+    padding: 50px 0 63px;
+  }
+
+  .achievment-wrapper {
+    gap: 15px;
+  }
+
+  .achievment-img {
+    width: 45%;
+    object-fit: cover;
+  }
+
+  .achievment-text {
+    font-size: 19px;
+  }
+
+  .achievment-item {
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+
+  .achievment-item-img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .achievment-item-text {
+    font-size: 21px;
+    span {
+      font-size: 22px;
+    }
+  }
+
+  .steps {
+    padding: 50px 0 50px;
+  }
+
+  .steps-wrapper {
+    grid-auto-rows: 250px;
+    margin-bottom: 50px;
+  }
+
+  .steps-title {
+    margin-bottom: 50px;
+  }
+
+  .steps-item {
+    padding: 25px 20px;
+  }
+
+  .steps-item-number {
+    font-size: 45px;
+    margin-bottom: 40px;
+  }
+
+  .steps-item-text {
+    font-size: 18px;
+  }
+
+  .steps-form-title {
+    font-size: 30px;
+  }
+
+  .steps-form-text {
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+
+  .steps-form-input {
+    height: 70px;
+    font-size: 20px;
+  }
+
+  .steps-link {
+    padding: 12px 30px;
+    font-size: 18px;
+  }
+
+  .footer {
+    padding: 40px 0;
+  }
+
+  .footer-title {
+    margin-bottom: 35px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+    margin-bottom: 35px;
+  }
+
+  .footer-address {
+    font-size: 19px;
+  }
+
+  .footer-tel,
+  .footer-email {
+    font-size: 20px;
+  }
+
+  .footer-email {
+    margin-bottom: 25px;
+  }
+
+  .socials-link {
+    height: 43px;
+    width: 43px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  .btn--yellow {
+    font-size: 15px;
+  }
+
+  .btn--enquire {
+    font-size: 14px;
+  }
+
+  .btn--form {
+    height: 50px;
+    font-size: 15px;
+    span {
+      width: 30px;
+      height: 20px;
+    }
+  }
+
+  .menu-link {
+    font-size: 14px;
+  }
+
+  .about-head::before,
+  .about-head::after {
+    content: none;
+  }
+
+  .about-text {
+    font-size: 15px;
+  }
+
+  .about-item-num {
+    font-size: 25px;
+    margin-bottom: 30px;
+  }
+
+  .about-item-title {
+    font-size: 17px;
+  }
+
+  .about-item-text {
+    font-size: 14px;
+  }
+
+  .overview-title {
+    margin-bottom: 50px;
+  }
+
+  .overview-item {
+    height: 150px;
+  }
+
+  .overview-item-text {
+    font-size: 14px;
+  }
+
+  .services-title {
+    margin-bottom: 50px;
+  }
+
+  .services-wrapper {
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 300px;
+  }
+
+  .services-item-text {
+    font-size: 17px;
+  }
+
+  .services-item-number {
+    font-size: 25px;
+    top: 25px;
+  }
+
+  .trademark-title {
+    margin-bottom: 50px;
+  }
+
+  .trademark-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .trademark-item {
+    max-width: 404px;
+    margin: 0 auto;
+  }
+
+  .trademark-item-text {
+    font-size: 14px;
+  }
+
+  .achievment-title {
+    margin-bottom: 50px;
+  }
+
+  .achievment-text {
+    font-size: 15px;
+  }
+
+  .achievment-item {
+    gap: 20px;
+    margin-bottom: 30px;
+  }
+
+  .achievment-item-img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .achievment-item-text {
+    font-size: 14px;
+    span {
+      font-size: 15px;
+    }
+  }
+
+  .steps-form-title {
+    font-size: 25px;
+    margin-bottom: 15px;
+  }
+
+  .steps-form-text {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .steps-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+  }
+
+  .steps-item-number {
+    font-size: 35px;
+    margin-bottom: 25px;
+  }
+
+  .steps-item-text {
+    font-size: 15px;
+  }
+
+  .steps-form {
+    grid-column: 1/3;
+    grid-row: 3/5;
+  }
+
+  .steps-form-input {
+    height: 50px;
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+
+  .steps-link {
+    padding: 10px 24px;
+    font-size: 15px;
+  }
+
+  .footer-wrapper {
+    gap: 25px;
+  }
+
+  .footer-text {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .footer-address {
+    font-size: 14px;
+  }
+
+  .footer-tel,
+  .footer-email {
+    font-size: 15px;
+  }
+
+  .socials-link {
+    height: 31px;
+    width: 31px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .header-top {
+    padding: 10px 0;
+    position: fixed;
+    background: #fff;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+
+  .logo-title {
+    width: 150px;
+  }
+
+  .menu {
+    position: fixed;
+    background: #fafafa;
+    height: 100vh;
+    right: -100%;
+    top: 0;
+    width: 70%;
+    transition: 0.3s;
+    z-index: 10;
+  }
+
+  .menu.active {
+    right: 0;
+  }
+
+  .menu-overlay {
+    display: block;
+  }
+
+  .menu-overlay.active {
+    left: 0;
+  }
+
+  .menu-list {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .menu-link {
+    font-size: 16px;
+  }
+
+  .burger {
+    display: block;
+  }
+
+  .header-bottom {
+    margin-top: 38px;
+    padding: 14px 0;
+  }
+
+  .partners-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr 1fr;
+    gap: 23%;
+    img {
+      width: 100% !important;
+    }
+  }
+
+  .about-wrapper {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .overview-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .services-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .achievment-img {
+    display: none;
+  }
+
+  .steps-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .steps-form {
+    grid-column: 1/2;
+    grid-row: 5/7;
+    padding: 25px 20px;
+  }
+
+  .footer-wrapper {
+    flex-direction: column;
+  }
+}
